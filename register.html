@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Yoga Studio Template">
+    <meta name="keywords" content="Yoga, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="header-section"  style="background-color:rgba(29, 29, 29, 0.842)">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="./index.html"><img src="img/logof.png" alt=""></a>
+                </div>
+                <nav class="main-menu mobile-menu">
+                    <ul>
+                        <li><a href="./index.html" style="color: rgb(255, 255, 255);" href="./index.html">Home</a></li>
+                        <li><a href="./blog.html" style="color: rgb(255, 255, 255);">Blog</a></li>
+                        <li><a href="./contact.html" style="color: rgb(255, 255, 255);">Contact Us</a></li>
+                        <a class="btn btn-info btn-lg ml-4" href="./login.html">Login</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div>
+    
+<div class="container">
+    <div class="row py-5 mt-4 align-items-center">
+        <!-- For Demo Purpose -->
+        <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
+            <img src="https://res.cloudinary.com/mhmd/image/upload/v1569543678/form_d9sh6m.svg" alt="" class="img-fluid mb-3 d-none d-md-block">
+            <h1>Create an Account</h1>
+            <p class="font-italic text-muted mb-0">Helping you find some amazing tour packages and book world's best luxury hotels.</p>
+        </div>
+
+        <!-- Registeration Form -->
+        <div class="col-md-7 col-lg-6 ml-auto">
+            <form action="#">
+                <div class="row">
+
+                    <!-- First Name -->
+                    <div class="input-group col-lg-6 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="fa fa-user text-muted"></i>
+                            </span>
+                        </div>
+                        <input id="firstName" type="text" name="firstname" placeholder="First Name" class="form-control bg-white border-left-0 border-md">
+                    </div>
+
+                    <!-- Last Name -->
+                    <div class="input-group col-lg-6 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="fa fa-user text-muted"></i>
+                            </span>
+                        </div>
+                        <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white border-left-0 border-md">
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="input-group col-lg-12 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="fa fa-envelope text-muted"></i>
+                            </span>
+                        </div>
+                        <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white border-left-0 border-md">
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="input-group col-lg-12 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="fa fa-phone-square text-muted"></i>
+                            </span>
+                        </div>
+                        <select id="countryCode" name="countryCode" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
+                            <option value="">+91</option>
+                            <option value="">+1</option>
+                            <option value="">+92</option>
+                            <option value="">+63</option>
+                        </select>
+                        <input id="phoneNumber" type="tel" name="phone" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="input-group col-lg-12 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="fa fa-lock text-muted"></i>
+                            </span>
+                        </div>
+                        <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md">
+                    </div>
+
+                    <!-- Password Confirmation -->
+                    <div class="input-group col-lg-12 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="fa fa-lock text-muted"></i>
+                            </span>
+                        </div>
+                        <input id="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" class="form-control bg-white border-left-0 border-md">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group col-lg-12 mx-auto mb-0">
+                        <a href="#" class="btn btn-primary btn-block py-2">
+                            <span class="font-weight-bold">Create your account</span>
+                        </a>
+                    </div>
+
+                    <!-- Divider Text -->
+                    <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
+                        <div class="border-bottom w-100 ml-5"></div>
+                        <span class="px-2 small text-muted font-weight-bold text-muted">OR</span>
+                        <div class="border-bottom w-100 mr-5"></div>
+                    </div>
+
+                    <!-- Social Login -->
+                    <div class="form-group col-lg-12 mx-auto">
+                        <a href="#" class="btn btn-primary btn-block py-2 btn-facebook">
+                            <i class="fa fa-facebook-f mr-2"></i>
+                            <span class="font-weight-bold">Continue with Facebook</span>
+                        </a>
+                        <a href="#" class="btn btn-primary btn-block py-2 btn-twitter">
+                            <i class="fa fa-twitter mr-2"></i>
+                            <span class="font-weight-bold">Continue with Twitter</span>
+                        </a>
+                    </div>
+
+                    <!-- Already Registered -->
+                    <div class="text-center w-100">
+                        <p class="text-muted font-weight-bold">Already Registered? <a href="./login.html" class="text-primary ml-2">Login</a></p>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="footer-section spad">
+        
+        <div class="container" style="color: rgb(173, 173, 173);">
+            <div class="row row-30">
+              <div class="col-md-4 col-xl-5">
+                <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                  <p> We offer great offers, some of the lowest airfares, exclusive discounts and a seamless online booking experience. </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h5 style="color: rgb(173, 173, 173);">Contacts</h5>
+                <dl class="contact-list">
+                  <dt>Address:</dt>
+                  <dd>Department of Computer Science, Aligarh Muslim University, Civil Lines, Aligarh 202001</dd>
+                </dl>
+                <dl class="contact-list">
+                  <dt>Email:</dt>
+                  <dd>support@websites.co.in</dd>
+                </dl>
+              </div>
+              <div class="col-md-4 col-xl-3">
+                <h5 style="color: rgb(173, 173, 173);">Services</h5>
+                <ul class="nav-list">
+                  <li>Tour Package</li>
+                  <li>Booking</li>
+                  <li>World Tours</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="social-links-warp">
+			<div class="container">
+				<div class="social-links">
+					<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+					<a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+				</div>
+			</div>
+
+    <div class="container text-center pt-5">
+        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Websites.co.in</a></p>
+    </div>
+    </div>
+    </footer>
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // For Demo Purpose [Changing input group text on focus]
+        $(function () {
+            $('input, select').on('focus', function () {
+                $(this).parent().find('.input-group-text').css('border-color', '#80bdff');
+            });
+            $('input, select').on('blur', function () {
+                $(this).parent().find('.input-group-text').css('border-color', '#ced4da');
+            });
+        });
+    </script>
+</body>
+
+</html>
